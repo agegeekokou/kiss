@@ -1,0 +1,71 @@
+/* GENERAL */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, label, input[type=submit]{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+a, p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+/* HEADER */
+.logo{
+    width: 80px;
+    height: auto;
+}
+header{
+    display: flex;
+    
+}
+nav > ul > li{
+    list-style-type: none;
+}
+.list-com, .list-sign{
+    display: flex;   
+}
+
+.products-pipe{
+    margin: 0 10px;
+}
+.two-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+.copyright{
+    text-align: center;
+}
+.nav-foot{
+    display: flex;
+}
+.nav-foot > ul > li{
+    margin: 10px;
+}
+hr{
+    background-color: red;
+}
+
+/* RESPONSIV */
+@media (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
+    
+    form{
+        width: 90%;
+    }
+    
+}

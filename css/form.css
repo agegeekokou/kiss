@@ -1,0 +1,25 @@
+/* FORM */
+form > div{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+}
+/* RESPONSIV */
+@media (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
+    
+    form{
+        width: 90%;
+    }
+    
+}
